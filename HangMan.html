@@ -1,0 +1,66 @@
+  <!---
+ * Created by Salma Essam  on 23/06/2024.
+  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HangMan Game</title>
+        <link  rel="stylesheet" href="HangMan.css">
+        <script src="Scripts/WordList.js"defer></script>
+        <script src="Scripts/HangMan.js"defer></script>
+    </head>
+    <body>
+        <div class="hangManModal">
+            <div class="content">
+                <img src="Images/lost.gif" alt="gif">
+                <h4>Game Over</h4>
+                <p>The Correct Word Was :<b>rinbow</b></p>
+                <button class="playAgain">Play Again</button>
+            </div>
+        </div>
+<div class="container">
+    <div class="hangManBox">
+        <img src="Images/hangman-0.svg" alt="HangMan">
+        <h1>Hangman Game</h1>
+    </div>
+    <div class="hangManDisplay">
+        <ul class="wordDisplay">
+            <!---
+                //list was created dynamicaly 
+            <li class="litter"></li>
+            <li class="litter"></li>
+            <li class="litter guessed">s</li>
+            <li class="litter"></li>
+            <li class="litter"></li>
+            <li class="litter"></li>
+            <li class="litter"></li>
+        -->
+        </ul>
+        <h4 class="hintText">
+            Hint:
+            <b>ssssssssssssssssssssssssssssssssssssssss
+            </b>
+        </h4>
+        <h4 class="guessesText">
+            Incorrect Guesses:
+            <b>0 / 6
+            </b>
+        </h4>
+        <div class="keyboard">
+           <!--
+           // btns was created dynamicaly
+            <button>A</button> <button>B</button> <button>C</button> <button>D</button>
+            <button>E</button> <button>F</button> <button>G</button> <button>H</button>
+            <button>I</button> <button>J</button> <button>K</button> <button>L</button>
+            <button>M</button> <button>N</button> <button>O</button> <button>P</button>
+            <button>Q</button> <button>R</button> <button>S</button> <button>T</button>
+            <button>U</button> <button>V</button> <button>W</button> <button>X</button>
+            <button>Y</button> <button>Z</button>
+            -->
+        </div>
+    </div>
+</div>
+    </body>
+</html>
